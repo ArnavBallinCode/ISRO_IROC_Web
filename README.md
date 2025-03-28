@@ -70,12 +70,4 @@ If you're looking for **fully-featured web-based MAVLink solutions**, check out 
 - **[mavlink2rest](https://github.com/mavlink/mavlink2rest)** – Exposes MAVLink as a REST API  
 - **[APWeb](https://github.com/ArduPilot/APWeb)** – Web server interface for ArduPilot  
 
----
-
-## 📌 Future Improvements  
-🔹 Integrate a **frontend dashboard** (React, Vue.js)  
-🔹 Add **mission planning features**  
-🔹 Implement **bi-directional control** (send MAVLink commands)  
-
-🙌 **Contributions & feedback are welcome!** 🚀  
 
