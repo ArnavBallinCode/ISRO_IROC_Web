@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone Telemetry Dashboard</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Drone Live Telemetry</h1>
+        <div class="status-indicator">
+            <span id="status-dot"></span>
+            <span id="status-text">Connecting...</span>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h2>Attitude</h2>
+                <p>Roll: <span id="roll">-</span>°</p>
+                <p>Pitch: <span id="pitch">-</span>°</p>
+                <p>Yaw: <span id="yaw">-</span>°</p>
+            </div>
+            <div class="card">
+                <h2>GPS Coordinates</h2>
+                <p>Latitude: <span id="lat">-</span></p>
+                <p>Longitude: <span id="lng">-</span></p>
+            </div>
+            <div class="card">
+                <h2>Altitude</h2>
+                <p><span id="altitude">-</span> m</p>
+            </div>
+            <div class="card">
+                <h2>Speed</h2>
+                <p>Airspeed: <span id="airspeed">-</span> m/s</p>
+                <p>Groundspeed: <span id="groundspeed">-</span> m/s</p>
+            </div>
+            <div class="card">
+                <h2>Heading</h2>
+                <p><span id="heading">-</span>°</p>
+            </div>
+            <div class="card">
+                <h2>Climb Rate</h2>
+                <p><span id="climb">-</span> m/s</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
